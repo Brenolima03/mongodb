@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+slides-aula-nosql-mongodb.pdf
+16-mongodb-spring-boot.pdf
