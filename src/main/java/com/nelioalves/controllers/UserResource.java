@@ -20,7 +20,7 @@ import com.nelioalves.services.UserService;
 @RestController
 @RequestMapping(value="/users")
 public class UserResource {
-
+	
 	@Autowired
 	private UserService service;
 	
@@ -52,7 +52,6 @@ public class UserResource {
 		obj = service.update(obj);
 		return ResponseEntity.noContent().build();
 	}
-
 
 	@RequestMapping(value = "/{id}", method=RequestMethod.DELETE)
 	public ResponseEntity<Void> delete(@PathVariable String id) {
